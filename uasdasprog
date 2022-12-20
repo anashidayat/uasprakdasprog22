@@ -1,0 +1,161 @@
+#include <iostream>
+using namespace std;
+
+int kj, n[999][6], jml; 
+
+void it(){ 
+	
+	cout<<endl;
+	cout<<"Jurusan Teknik Informatika"<<endl;
+	cout<<"==============================="<<endl;
+	cout<<endl;
+	
+	cout<<"Masukkan Jumlah Mahasiswa : ";
+	cin>>jml;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : ";
+	cin>>n[i][0];
+	cout<<"Nama : ";
+	cin>>n[i][1];
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Dasar Pemrograman : ";
+	cin>>n[i][2];
+	cout<<"Struktur Data : ";
+	cin>>n[i][3];
+	cout<<"Algoritma Pemrograman : ";
+	cin>>n[i][4];
+	cout<<"Rekayasa Perangkat Lunak :";
+	cin>>n[i][5];
+	cout<<endl;	
+	}
+	
+	cout<<"DATA ANDA"<<endl;
+	cout<<"================================"<<endl;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : "<<n[i][0]<<endl;
+	cout<<"Nama : "<<n[i][1]<<endl;
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Dasar Pemrograman : "<<n[i][2]<<endl;
+	cout<<"Struktur Data : "<<n[i][3]<<endl;
+	cout<<"Algoritma Pemrograman : "<<n[i][4]<<endl;
+	cout<<"Rekayasa Perangkat Lunak :"<<n[i][5]<<endl;
+	cout<<"Rata-Rata Nilai Akhir : "<<(n[i][2]+n[i][3]+n[i][4]+n[i][5])/4<<endl;
+	cout<<endl;
+	}
+}
+
+void ik(){ 
+	
+	cout<<endl;
+	cout<<"Jurusan Ilmu Komputer"<<endl;
+	cout<<"==============================="<<endl;
+	cout<<endl;
+	
+	cout<<"Masukkan Jumlah Mahasiswa : ";
+	cin>>jml;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : ";
+	cin>>n[i][0];
+	cout<<"Nama : ";
+	cin>>n[i][1];
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Rekayasa Perangkat Lunak : ";
+	cin>>n[i][2];
+	cout<<"Jaringan Komputer : ";
+	cin>>n[i][3];
+	cout<<"Sistem Cerdas : ";
+	cin>>n[i][4];
+	cout<<"Sistem Digital :";
+	cin>>n[i][5];
+	cout<<endl;	
+	}
+	
+	cout<<"DATA ANDA"<<endl;
+	cout<<"================================"<<endl;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : "<<n[i][0]<<endl;
+	cout<<"Nama : "<<n[i][1]<<endl;
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Rekayasa Perangkat Lunak : "<<n[i][2]<<endl;
+	cout<<"Jaringan Komputer : "<<n[i][3]<<endl;
+	cout<<"Sistem Cerdas : "<<n[i][4]<<endl;
+	cout<<"Sistem Digital :"<<n[i][5]<<endl;
+	cout<<"Rata-Rata Nilai Akhir : "<<(n[i][2]+n[i][3]+n[i][4]+n[i][5])/4<<endl;
+	cout<<endl;
+	}
+}
+
+void si(){ 
+	
+	cout<<endl;
+	cout<<"Jurusan Sistem Informasi"<<endl;
+	cout<<"==============================="<<endl;
+	cout<<endl;
+	
+	cout<<"Masukkan Jumlah Mahasiswa : ";
+	cin>>jml;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : ";
+	cin>>n[i][0];
+	cout<<"Nama : ";
+	cin>>n[i][1];
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Rekayasa Sistem Informasi : ";
+	cin>>n[i][2];
+	cout<<"Algoritma Pemrograman : ";
+	cin>>n[i][3];
+	cout<<"Struktur Data : ";
+	cin>>n[i][4];
+	cout<<"Konsep Sistem Informasi :";
+	cin>>n[i][5];
+	cout<<endl;	
+	}
+	
+	cout<<"DATA ANDA"<<endl;
+	cout<<"================================"<<endl;
+	for(int i=0; i<jml; i++){
+	cout<<"Data Mahasiswa Ke-"<<i+1<<endl;
+	cout<<"NIM : "<<n[i][0]<<endl;
+	cout<<"Nama : "<<n[i][1]<<endl;
+	cout<<"Masukkan Nilai Skala 1-100 : \n";
+	cout<<"Rekayasa Sistem Informasi : "<<n[i][2]<<endl;
+	cout<<"Algoritma Pemrograman : "<<n[i][3]<<endl;
+	cout<<"Struktur Data : "<<n[i][4]<<endl;
+	cout<<"Konsep Sistem Informasi :"<<n[i][5]<<endl;
+	cout<<"Rata-Rata Nilai Akhir : "<<(n[i][2]+n[i][3]+n[i][4]+n[i][5])/4<<endl;
+	cout<<endl;
+	}
+}
+
+
+int main(){
+	
+	cout<<"Bismillaahirrahmaanirrahiim, Saya Annasrulloh Hidayat, berjanji akan mengerjakan soal UAS ini dengan sungguh-sungguh dan maksimal dengan usaha sendiri, TIDAK melihat pekerjaan orang lain, serta mematuhi peraturan selama ujian. Jika saya tidak menepati janji ini, saya yang menanggung risikonya";
+	cout<<endl;
+	cout<<endl;
+	cout<<"================================================================"<<endl;
+	cout<<endl;
+	cout<<"KODE JURUSAN 		: "<<endl;
+	cout<<"1. Teknik Informatika		: 1001"<<endl;
+	cout<<"2. Ilmu Komputer 		: 2002"<<endl;
+	cout<<"3. Sistem Informasi		: 3003"<<endl;
+	kode:
+	cout<<"Masukkan Kode Jurusan(1001/2002/3003) : ";
+	cin>>kj;
+	if(kj == 1001){
+		it();
+	} else if(kj == 2002){
+		ik();
+	} else if(kj == 3003){
+		si();
+	} else {
+		goto kode;
+	}
+	
+	
+}
